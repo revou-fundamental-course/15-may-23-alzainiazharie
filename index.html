@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aplikasi Perhitungan Luas dan Keliling Persegi Berbasis Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <h1 class="title_website">Aplikasi Perhitungan Luas dan Keliling Persegi Berbasis Web</h1>
+    <br>
+    <center>
+        <!-- <img src="https://farrasyil.files.wordpress.com/2012/09/persegi1.jpg"> -->
+        <img src="https://slideplayer.info/slide/2795816/10/images/4/Keliling+%3A+K+%3D+4+x+sisi+%3D+4+s+Luas+%3A+L+%3D+sisi+x+sisi+%3D+s+x+s+%3D+s2+D+C.jpg"
+            width="250" height="150">
+    </center>
+    <br>
+    <h1>Hitung Keliling Persegi</h1>
+    <center>
+        <input type="number" id="sisi-keliling" class="input_type_number"
+            placeholder="Masukkan Nilai Sisi dari Persegi">
+        <button class="button_hitung" id="hitung-keliling" onclick="hitungKeliling()">Hitung</button>
+        <br>
+        <br>
+        <button class="button_reset" onclick="resetKeliling()">Reset</button>
+    </center>
+    <h1>Hitung Luas Persegi</h1>
+    <center>
+        <input type="number" id="sisi-luas" class="input_type_number" placeholder="Masukkan Nilai Sisi dari Persegi">
+        <button class="button_hitung" id="hitung-luas" onclick="hitungLuas()">Hitung</button>
+        <br>
+        <br>
+        <button class="button_reset" onclick="resetLuas()">Reset</button>
+        <p id="result-keliling" style="display: none;">Tampil Hasil Keliling</p>
+        <p id="result-luas" style="display: none;">Tampil Hasil Luas</p>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.title_website {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.input_type_number {
+    max-inline-size: 50%;
+    width: 50%;
+    text-align: left;
+}
+
+.button_hitung {
+    background-color: rgb(143, 178, 229);
+}
+
+.button_reset {
+    background-color: rgb(231, 153, 89);
+}
